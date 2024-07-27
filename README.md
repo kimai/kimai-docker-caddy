@@ -2,7 +2,7 @@
 
 Get up and running with Kimai on the following platforms:
 
-* [Hetzner Cloud tutorial](/documentation/hosting-hetzner-cloud.html)
+* [Hetzner Cloud](https://www.kimai.org/documentation/hosting-hetzner-cloud.html)
 
 If you have questions after trying the tutorials, check out the [forums](https://github.com/kimai/kimai/discussions).
 
@@ -17,4 +17,4 @@ Self-hosting Kimai requires technical knowledge, including:
 
 Kimai recommends self-hosting for expert users. 
 Mistakes can lead to data loss, security issues, and downtime. 
-If you aren't experienced at managing servers, Kimai recommends [Kimai Cloud](https://www.kimai.cloud/).
+If you aren't experienced at managing servers, Kimai recommends [Kimai Cloud](https://www.kimai.org/).

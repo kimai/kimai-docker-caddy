@@ -1,4 +1,5 @@
-version: "3.7"
+# The following line is only required for old installations
+# version: "3.7"
 
 services:
   caddy:
