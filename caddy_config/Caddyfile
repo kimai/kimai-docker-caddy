@@ -1,0 +1,5 @@
+kimai.<domain>.<suffix> {
+    reverse_proxy kimai:8001 {
+      flush_interval -1
+    }
+}
