@@ -3,6 +3,7 @@
 Get up and running with Kimai on the following platforms:
 
 * [Hetzner Cloud](https://www.kimai.org/documentation/hosting-hetzner-cloud.html)
+* [Digital Ocean](https://www.kimai.org/documentation/hosting-digital-ocean.html)
 
 If you have questions after trying the tutorials, check out the [forums](https://github.com/kimai/kimai/discussions).
 
