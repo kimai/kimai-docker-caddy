@@ -43,7 +43,7 @@ services:
           - ADMINMAIL=${KIMAI_USER}
           - ADMINPASS=${KIMAI_PASSWORD}
           - "DATABASE_URL=mysql://${MYSQL_USER}:${MYSQL_PASSWORD}@sqldb/${MYSQL_DATABASE}?charset=utf8mb4&serverVersion=8.3.0"
-          - TRUSTED_HOSTS=localhost,127.0.0.1,${SUBDOMAIN}.${DOMAIN_NAME}
+          - TRUSTED_HOSTS=localhost|127.0.0.1|${SUBDOMAIN}.${DOMAIN_NAME}
           - TZ=${TIMEZONE}
       restart: unless-stopped
 
