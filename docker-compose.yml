@@ -26,13 +26,17 @@ services:
       restart: unless-stopped
       healthcheck:
           test: mysqladmin -p${MYSQL_ROOT_PASSWORD} ping -h localhost
-          interval: 20s
-          start_period: 10s
-          timeout: 10s
-          retries: 3
+          interval: 10s
+          timeout: 5s
+          retries: 12
+          start_period: 30s
 
   kimai:
       image: kimai/kimai2:apache
+      depends_on:
+          sqldb:
+              condition: service_healthy
+              restart: true
       volumes:
           - kimai_data:/opt/kimai/var/data
           - kimai_plugins:/opt/kimai/var/plugins
