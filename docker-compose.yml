@@ -39,7 +39,7 @@ services:
               restart: true
       volumes:
           - kimai_data:/opt/kimai/var/data
-          - kimai_plugins:/opt/kimai/var/plugins
+          - ${DATA_FOLDER}/kimai_plugins:/opt/kimai/var/plugins
           - ${DATA_FOLDER}/kimai_config/local.yaml:/opt/kimai/config/packages/local.yaml
       ports:
           - 8001:8001
